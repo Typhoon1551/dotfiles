@@ -1,6 +1,8 @@
 # DOTFILES
 
 These are my dotfiles
+- EWW bar is minimal but works well
+- Quickshell coming soon
 
 ## Pictures
 
