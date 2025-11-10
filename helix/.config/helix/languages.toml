@@ -1,0 +1,96 @@
+[[language]]
+name = "python"
+auto-format = true
+
+
+[language.formatter]
+command = "black"
+args = [
+  "-",                # stdin
+  "--quiet",
+  "--line-length=79",
+]
+
+[language.indent]
+unit = "\t"
+tab-width = 4
+
+[[language]]
+name = "yuck"
+scope = "source.yuck"
+injection-regex = "yuck"
+file-types = ["yuck"]
+language-servers = ["yuckls"]
+# put this in your languages.toml
+
+
+[language.indent]
+unit = "\t"
+tab-width = 4
+
+[[language]]
+name = "latex"
+scope = "source.tex"
+injection-regex = "tex"
+file-types = ["tex"]
+roots = []
+comment-token = "%"
+language-servers = ["texlab"]
+auto-format = false
+
+[language.formatter]
+command = "prettier"
+args = [
+  "--plugin=/usr/lib/node_modules/prettier-plugin-latex/dist/prettier-plugin-latex.js",
+  "%{buffer_name}",
+]
+
+[language.indent]
+unit = "\t"
+tab-width = 4
+
+[[language]]
+name = "haskell"
+scope = "source.hs"
+file-types = ["hs"]
+auto-format = true
+indent = { unit = "\t", tab-width = 4 }
+
+[[language]]
+name = "toml"
+auto-format = true
+
+[language.formatter]
+command = "taplo"
+args = ["fmt", "-"]
+
+[language.indent]
+unit = "\t"
+tab-width = 4
+
+[[language]]
+name = "qml"
+auto-format = false
+
+[language.formatter]
+command = "qmlformat"
+args = ["%{buffer_name}"]
+
+[language.indent]
+unit = "\t"
+tab-width = 4
+
+[language-server]
+yuckls = { command = "dotnet", args = [
+  "/home/gitrepos/yuckls/YuckLS/dist/YuckLS.dll",
+] } #must be where you cloned this repo to
+#yuckls = {command = "yuckls } #if installed from aur
+
+[language-server.texlab]
+command = "texlab"
+config = { texlab = { build = { onSave = true } } }
+indent = { tab-width = 4, unit = "\t" }
+
+[language-server.qmlls]
+args = ["-E"]
+command = "qmlls"

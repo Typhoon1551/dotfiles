@@ -1,0 +1,57 @@
+theme = "rose_pine_dawn"
+
+[editor]
+shell = ["fish", "-c"]
+cursorline = true
+preview-completion-insert = false
+end-of-line-diagnostics = "hint"
+line-number = "relative"
+
+[editor.cursor-shape]
+normal = 'block'
+insert = 'bar'
+select = 'underline'
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+"'" = "'"
+
+[editor.whitespace.render]
+space = "none"
+tab = "all"
+nbsp = "none"
+nnbsp = "none"
+newline = "none"
+
+[editor.whitespace.characters]
+tab = "→"
+tabpad = " "
+
+[editor.indent-guides]
+render = false
+character = "┊"
+
+[editor.soft-wrap]
+enable = true
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+other-lines = "error"
+
+[editor.statusline]
+left = [
+  "version-control",
+  "file-encoding",
+  "file-name",
+  "file-modification-indicator",
+  "read-only-indicator",
+]
+center = ["mode", "diagnostics"]
+right = ["selections", "position"]
+separator = "❖"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"

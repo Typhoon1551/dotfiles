@@ -1,0 +1,237 @@
+(defwindow testbox
+  :monitor 0
+  :geometry (geometry
+    :x "30px"
+    :y "30px"
+    :width "30%"
+    :height "30%"
+    :anchor "top left")
+  :stacking "fg"
+  :exclusive "false"
+
+  (box :class "module window"
+    ;"${round(EWW_RAM.used_mem / 1000000000, 2)} GB / ${round(EWW_RAM.total_mem / 1000000000, 2)} GB"
+    ;{media-status.position.secs / media-status.length.secs * 100}
+  )
+)
+
+
+
+(defpoll hour :interval "1s" "date +%I")
+(defpoll minute :interval "1s" "date +%M")
+(defpoll second :interval "1s" "date +%S")
+
+(defpoll day :interval "60s" "date +%d")
+(defpoll month :interval "60s" "date +%m")
+(defpoll year :interval "60s" "date +%y")
+
+(defwidget time [orientation separator]
+  (box
+    :class "module ${orientation}"
+    :orientation orientation
+
+    hour
+    (label :class "accent" :text separator)
+    minute
+    (label :class "accent" :text separator)
+    second
+  )
+)
+
+
+
+
+(defwidget battery [orientation]
+  (box :class "module ${orientation} bar" :hexpand "true" :width "50"
+  :tooltip "${EWW_BATTERY.BAT0.status}"
+  (label :class "accent" :text "${EWW_BATTERY.BAT0.capacity}")))
+
+
+
+
+(defpoll volume :interval "0.1s" "~/.config/eww/scripts/get-volume")
+
+(defwidget volume [orientation]
+  (box :class "module ${orientation} bar" :width "50" :hexpand "true"
+  (label :text volume)))
+
+
+;; Niri Status Bar
+
+
+(defwindow niribar
+  :monitor 0
+  :geometry (
+    geometry
+    :x "0px"
+    :y "5px"
+    :width "1910px"
+    :height "40px"
+    :anchor "top center"
+  )
+  :stacking "fg"
+  :exclusive "true"
+  (
+    centerbox :orientation "h" :class "niribar"
+    (
+      box :halign "start" :space-evenly "false"
+      (launch-pmenu :text " " :orientation "h")
+      ;(niri-workspaces)
+    )
+    (
+      box :halign "center" :space-evenly "false"
+      ;(mem-graph)
+      (
+        datetime
+
+        :v1 hour
+        :v2 minute
+        :v3 second
+
+        :separator ":"
+        :orientation "h"
+      )
+      (cava)
+      (
+        datetime
+        
+        :v1 month
+        :v2 day
+        :v3 year
+
+        :separator "/"
+
+        :orientation "h"
+      )
+    )
+    (
+      box :halign "end" :space-evenly "false"
+      (volume :orientation "h")
+      (battery :orientation "h")
+    )
+  )
+)
+
+
+(
+  defwidget datetime [v1 v2 v3 separator orientation]
+  (
+    box :class "module ${orientation} bar"
+        :orientation orientation
+    v1
+    (label :class "accent" :text separator)
+    v2
+    (label :class "accent" :text separator)
+    v3
+  )
+)
+
+(
+  defwidget launch-pmenu [text orientation]
+  (
+  eventbox :onclick "eww open --toggle pmenu"
+    (
+    box :class "module ${orientation} bar" :hexpand "true" :width "50" :halign "center"
+    
+      (box (label :class "accent" :text text))
+    )
+  )
+)
+
+(
+  defwidget mem-graph []
+  (
+    box
+    :class "module h bar"
+    :hexpand "true"
+    :width "100"
+    :tooltip "${round(EWW_RAM.used_mem / 1000000000, 2)} GB / ${round(EWW_RAM.total_mem / 1000000000, 2)} GB"
+    (
+      graph
+      :value "${EWW_RAM.used_mem_perc}"
+      :time-range "30s"
+      :max "100"
+    )
+  )
+)
+
+;; Power Menu
+
+
+(
+  defwidget pmenu-item [icon label command]
+  (
+    eventbox :onclick command
+    (
+    box :class "module v h pmenu-item window" :orientation "h" :space-evenly "false"
+    (label :class "accent icon h" :text icon)
+    (label :class "h" :text label)
+  ))
+)
+
+(
+  defwidget pmenu []
+  (
+    box :orientation "v"
+    (
+      pmenu-item
+      :icon "⏻ "
+      :label "Shut Down"
+      :command "shutdown now"
+    )
+    (
+      pmenu-item
+      :icon " "
+      :label "Reboot"
+      :command "reboot"
+    )
+    (
+      pmenu-item
+      :icon "󰌾 "
+      :label "Lock Screen"
+      :command "swaylock &"
+    )
+    (
+      pmenu-item
+      :icon "󰒲 "
+      :label "Sleep"
+      :command "systemctl suspend"
+    )
+  )
+)
+
+(
+  defwindow pmenu
+  :monitor 0
+  :geometry (
+    geometry
+    :x "5px"
+    :y "0px"
+    :width "15%"
+    :height "20%"
+    :anchor "top left"
+  )
+  :stacking "fg"
+  :exclusive "false"
+  (pmenu)
+)
+
+
+;; Audio Visualizer + media controls
+
+(deflisten cava "./scripts/cavablocks 20 30")
+;(deflisten media-status "./modules/mediactl")
+
+(
+  defwidget cava []
+  (
+  eventbox
+    :onhover "eww open media"
+    (
+      box :class "module h bar"
+      cava
+    )
+  )
+)
+
+
