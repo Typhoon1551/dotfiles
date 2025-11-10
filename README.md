@@ -2,6 +2,10 @@
 
 These are my dotfiles
 
+## Pictures
+
+![A beautiful rose-pine-dawn themed desktop](./screenshots/desktop-1.png)
+
 ## Installation
 
 ### Dependencies

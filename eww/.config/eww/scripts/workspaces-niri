@@ -1,7 +1,0 @@
-#! /usr/bin/env fish
-
-function spaces
-    niri msg --json workspaces | jq -r -c "[.[] | {idx, is_active}] | sort_by(.idx)"
-end
-
-spaces
