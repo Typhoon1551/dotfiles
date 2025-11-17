@@ -19,5 +19,6 @@ Item {
         radius: 5
         children: [root.child]
         id: rect
+        color: ColorPalette.base
     }
 }

@@ -71,6 +71,7 @@ tab-width = 4
 [[language]]
 name = "qml"
 auto-format = false
+roots = ["shell.qml", "qmldir"]
 
 [language.formatter]
 command = "qmlformat"

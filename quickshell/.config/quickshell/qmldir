@@ -1,0 +1,2 @@
+module Shell
+singleton ColorPalette 1.0 ColorPalette.qml
