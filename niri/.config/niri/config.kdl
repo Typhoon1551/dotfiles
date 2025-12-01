@@ -103,7 +103,7 @@ output "eDP-1" {
     // so to put another output directly adjacent to it on the right, set its x to 1920.
     // If the position is unset or results in an overlap, the output is instead placed
     // automatically.
-    position x=1280 y=0
+    position x=0 y=0
 }
 
 cursor {
@@ -280,6 +280,7 @@ spawn-sh-at-startup "eww daemon"
 spawn-sh-at-startup "eww open niribar"
 spawn-sh-at-startup "swaybg -i ~/Wallpapers/rose-pine-ocean.jpg"
 spawn-sh-at-startup "mako --config ~/.cache/hellwal/mako-colors"
+spawn-sh-at-startup "vicinae server"
 
 prefer-no-csd
 
@@ -376,7 +377,7 @@ binds {
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+Q hotkey-overlay-title="Open a Terminal: Kitty" { spawn "kitty"; }
-    Mod+Space hotkey-overlay-title="App launcher" { spawn "fuzzel"; }
+    Mod+Space repeat=false { spawn "vicinae" "toggle"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "hyprlock"; }
 
     Mod+M { spawn-sh "~/Scripts/change-wallpaper -c"; }
