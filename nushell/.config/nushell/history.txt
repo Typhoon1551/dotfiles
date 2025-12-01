@@ -1,0 +1,170 @@
+ls
+ps
+ps -e
+ps
+ls
+ls | sort-by size
+ls | sort-by size | reverse
+ls | sort-by modified
+ls | sort-by modified | reverse
+jj st
+jj
+^ps
+^ps -e
+^ls
+ls
+tree
+ps | where status == running
+ps
+ps | where status == Running
+alias lss = ls | sort-by size | reverse
+lss
+exit
+exit 
+date now
+1..10
+1..
+1..5..50
+0..5..50
+..10
+var = 0..5..50
+let var = 0..5..50
+var
+print var
+print $var
+print $var[9]
+ls
+zi
+^zi
+zfgrep 
+zoxide query 
+ls
+open config.kdl
+open config.kdl | into binary 
+open config.kdl | into binary | first 4
+open config.kdl | lines
+http get https://blog.rust-lang.org/feed.xml
+http get ysap.sh
+curl ysap.sh
+zi
+zoxide extreme-bevy
+zoxide query extreme-bavy
+zoxide query extreme-bevy
+zoxide query extreme-bevy | cd
+ld
+pwd
+cd $(zoxide query extreme-bevy)
+zoxide query extreme-bevy | cd $in
+l
+ls
+open Cargo.toml
+open Cargo.toml | update profile.release.lto thick
+open Cargo.toml
+ls
+ls | sort-by size
+ls | sort-by size | reverse 
+ls | where type==file
+ls | where type file
+ls | where type file\\
+ls | where type
+ls | where type is file
+ls | where type == file
+ls | where type == file | sort-by size | reverse
+alias fls = ls | where type == file | sort-by size | reverse
+fls
+..10 | each {$in * 2}
+which nu
+exit
+ls
+ls **/*.webp
+ls **/*.webp | select name
+ls **/*.webp | select name | each { print $in }
+ls **/*.webp | select name | each { print $in.name }
+man mogrify
+**/*.webp
+ls **/*.webp | select name | each { mogrify -format png $in.name }
+ls **/*.webp
+ls skylar_mae/
+rm **/*.webp
+ls skylar_mae/
+lazygit 
+which helix
+$env.config.buffer_editor = "helix"
+starship 
+starship prompt
+config nu 
+starship config
+plugin list
+explore
+ls | explore
+ls
+table --list 
+$env.config.table.mode = "basic"
+table --list 
+$env.config.table.mode = "dots"
+table --list 
+$env.config.table.mode = "markdown"
+table --list 
+$env.config.table.mode = "restructured"
+table --list 
+$env.config.table.mode = "double"
+table --list 
+$env.config.table.mode = "with_love"
+table --list 
+$env.config.table.mode = "reinforced"
+table --list 
+$env.config.table.mode = "double"
+table --list 
+ls
+$env.config.color_config
+hx $nu.env-path
+hx
+alias hx = helix
+hx $nu.env-path
+hx $nu.config-path
+zi
+hx rose-pine-dawn.conf
+config nu
+scope aliases 
+config nu
+scope aliases 
+hx rose-pine-dawn.conf
+open rose-pine-dawn.conf
+open --raw rose-pine-dawn.conf
+rm rose-pine-dawn.conf
+zi
+ls
+$env.config.table.mode = "double"
+ls
+config nu
+mkdir AoC/2025/
+z AoC/2025/
+ls
+mkdir input
+z input/
+curl https://adventofcode.com/2025/day/1/input
+http get https://adventofcode.com/2025/day/1/input
+hx 1
+open 1
+clear
+z ..
+hx 1.nu
+nu 1.nu
+zj
+alias zj = zellij
+zj
+config nu
+zi
+ls
+git difftool
+z final-project
+ls
+ruff format
+lazygit 
+ls
+ls src
+rm **/*.orig
+ls src
+z dots
+z dot
+ls

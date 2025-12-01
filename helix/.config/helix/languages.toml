@@ -4,12 +4,8 @@ auto-format = true
 
 
 [language.formatter]
-command = "black"
-args = [
-  "-",                # stdin
-  "--quiet",
-  "--line-length=79",
-]
+command = "ruff"
+args = ["format", "-"]
 
 [language.indent]
 unit = "\t"

@@ -1,9 +1,9 @@
 
 format = """
-┏$hostname$username$directory$git_branch$cmd_duration$fill$haskell$python$package$rust$battery$time┓
+┏$hostname$username$directory$git_branch$cmd_duration$fill$haskell$python$package$rust$battery$time
 ┗$character"""
 
-right_format = """❮┛"""
+# right_format = """❮┛"""
 
 palette = "rose-pine-dawn"
 
