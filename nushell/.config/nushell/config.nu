@@ -23,7 +23,6 @@ $env.config.table.mode = "double"
 mkdir ($nu.data-dir | path join "vendor/autoload")
 starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
 
-alias hx = helix
 alias zj = zellij
 
 source ~/.zoxide.nu

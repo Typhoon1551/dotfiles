@@ -25,7 +25,7 @@ include current-theme.conf
 #: <https://sw.kovidgoyal.net/kitty/kittens/choose-fonts/#font-spec-
 #: syntax>.
 
-font_size 14.0
+font_size 13.0
 
 #: Font size (in pts).
 
@@ -1535,7 +1535,7 @@ font_size 14.0
 
 #: Advanced {{{
 
-shell fish
+shell nu
 
 #: The shell program to execute. The default value of . means to use
 #: the value of of the SHELL environment variable or if unset,
@@ -2794,7 +2794,7 @@ editor helix
 
 
 # BEGIN_KITTY_FONTS
-font_family      family="ZedMono Nerd Font"
+font_family      family="0xProto Nerd Font Mono"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto

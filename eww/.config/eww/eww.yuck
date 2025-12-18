@@ -64,8 +64,8 @@
   :geometry (
     geometry
     :x "0px"
-    :y "5px"
-    :width "1910px"
+    :y "0px"
+    :width "2550"
     :height "40px"
     :anchor "top center"
   )
@@ -107,7 +107,7 @@
     (
       box :halign "end" :space-evenly "false"
       (volume :orientation "h")
-      (battery :orientation "h")
+;      (battery :orientation "h")
     )
   )
 )
