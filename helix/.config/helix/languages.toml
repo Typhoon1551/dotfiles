@@ -1,7 +1,7 @@
 [[language]]
 name = "python"
 auto-format = true
-
+language-servers = ["pyright", "ruff"]
 
 [language.formatter]
 command = "ruff"
@@ -9,7 +9,7 @@ args = ["format", "-"]
 
 [language.indent]
 unit = "\t"
-tab-width = 4
+tab-width = 3
 
 [[language]]
 name = "yuck"
@@ -17,12 +17,10 @@ scope = "source.yuck"
 injection-regex = "yuck"
 file-types = ["yuck"]
 language-servers = ["yuckls"]
-# put this in your languages.toml
-
 
 [language.indent]
 unit = "\t"
-tab-width = 4
+tab-width = 3
 
 [[language]]
 name = "latex"
@@ -43,14 +41,14 @@ args = [
 
 [language.indent]
 unit = "\t"
-tab-width = 4
+tab-width = 3
 
 [[language]]
 name = "haskell"
 scope = "source.hs"
 file-types = ["hs"]
 auto-format = true
-indent = { unit = "\t", tab-width = 4 }
+indent = { unit = "\t", tab-width = 3 }
 
 [[language]]
 name = "toml"
@@ -62,7 +60,7 @@ args = ["fmt", "-"]
 
 [language.indent]
 unit = "\t"
-tab-width = 4
+tab-width = 3
 
 [[language]]
 name = "qml"
@@ -75,7 +73,15 @@ args = ["%{buffer_name}"]
 
 [language.indent]
 unit = "\t"
-tab-width = 4
+tab-width = 3
+
+[[language]]
+name = "zig"
+auto-format = true
+
+[language.indent]
+unit = "\t"
+tab-width = 3
 
 [language-server]
 yuckls = { command = "dotnet", args = [
@@ -86,8 +92,16 @@ yuckls = { command = "dotnet", args = [
 [language-server.texlab]
 command = "texlab"
 config = { texlab = { build = { onSave = true } } }
-indent = { tab-width = 4, unit = "\t" }
+indent = { tab-width = 3, unit = "\t" }
 
 [language-server.qmlls]
 args = ["-E"]
 command = "qmlls"
+
+[language-server.pyright]
+command = "basedpyright-langserver"
+args = ["--stdio"]
+
+[language-server.ruff]
+command = "ruff"
+args = ["server"]

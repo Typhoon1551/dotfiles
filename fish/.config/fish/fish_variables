@@ -45,4 +45,4 @@ SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3dFFCC66
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
-SETUVAR papers:audi\x2dquattro\x2ejpg\x1eEvo\x2d6\x2ejpg\x1elancia\x2ddelta\x2ejpg\x1elancia\x2dstratos\x2ejpg\x1erenault\x2d5\x2ejpg\x1esubaru\x2dimpreza\x2ejpg\x1etoyota\x2dcelica\x2ejpg
+SETUVAR papers:other\x1erally\x2dcars\x1erose\x2dpine\x2docean\x2ejpg

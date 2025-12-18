@@ -168,3 +168,703 @@ ls src
 z dots
 z dot
 ls
+lazygit 
+hx helix/.config/helix/languages.toml
+pyright
+pylsp
+pylsp --version
+ruff --help
+ruff server --help
+which pylsp
+sudo pacman -R pylsp
+sudo pacman -R python-lsp
+sudo pacman -R python-lsp-server
+install pyright
+install --help
+sudo pacman -S pyright
+pyright-langserver --help
+hx helix/.config/helix/languages.toml
+zi
+ls
+hx src/main.py
+ruff server --help
+ruff server
+ls
+open pyproject.toml
+hx src/character.py
+uv tool install basedpyright
+basedpyright --help
+hx src/character.py
+basedpyright --writebaseline
+hx helix/.config/helix/languages.toml
+hx src/character.py
+lazygit
+uv run src/main.py
+basedpyright
+zj
+open 
+open 1.nu
+ls
+mkdir solution
+mv 1.nu solution/1
+ls
+ls *
+ls **
+ls **/
+ls **/*
+hx helix/.config/helix/config.toml
+hx zellij/.config/zellij/config.kdl
+ls
+zj
+open solution/1
+open solution/1 0> solution/1e
+touch solution/1e
+open solution/1 0> solution/1e
+ls solution/
+open solution/1 o> solution/1e
+'a'..'z'
+a..z
+print a..z
+alphabet
+ghc
+ghc repl
+ghc --repl
+ghc --help
+solutions/1e
+./solution/1e
+chmod +x solution/1e
+./solution/1e
+zj
+sudo pacman -Syu
+reboot
+zi
+hx src/adventure/story.py
+sudo pacman -S zig
+hx --health zig
+sudo pacman -S zls
+hx --health zig
+zi
+ls
+hx 2
+ls
+z ..
+ls
+ls solution/
+chmod +x solution/2
+./solution/2
+open input/2
+open input/2 | ./solution/2
+open input/2 | nu ./solution/2
+hx solution/2
+mv solution/2 solution/2.nu
+open input/2 | ./solution/2.nu
+nu solution/2.nu
+ls solution/
+open input/2 | solution/2.nu
+ls solution/
+rm solution/.nu
+rm solution/2.nu
+ls solution/
+chmod +x solution/2
+./solution/
+./solution/2
+ls
+2
+./2
+z ..
+./solution/2
+$env.config.table.mode = "double"
+./solution/2
+$env.config.table.mode = "double"
+ls
+./solution/2
+hyperfine ./solution/2
+zj
+ls
+z ..
+mkdir 2015
+z 2015/
+ls
+mkdir inputs solutions
+ls
+hx inputs/1
+hx solutions/1
+chmod +x solutions/1
+./solutions/1
+hx solutions/1
+./solutions/1
+hx solutions/1
+./solutions/1
+hx solutions/1e
+chmod +x solutions/1e
+hx solutions/1e
+./solutions/1e
+hx solutions/1e
+./solutions/1e
+hx solutions/1e
+./solutions/1e
+hx inputs/2
+hx solutions/2
+chmod +x solutions/2
+hx solutions/2
+./solutions/2
+hx solutions/2
+./solutions/2
+hx inputs/2
+./solutions/2
+hx solutions/2
+./solutions/2
+hx solutions/2
+z
+zig zen
+zig version
+z projects
+ls
+ls | sort-by modified
+ls | sort-by modified | reverse
+mkdir zig
+z zig
+ls
+hx hello.zig
+zig run hello.zig
+sudo pacman -Syu
+reboot
+zi
+ls
+lazygit
+uv run src/main.py
+hx README.md
+git stage -a
+git stage --all
+git commit -m "updated readme"
+git push
+basedpyright --writebaseline
+hx README.md
+uv run src/main.py
+hx src/combat/main.py
+uv run src/main.py
+z Appa
+z Apps
+ls
+git clone https://github.com/LadybirdBrowser/ladybird.git
+sudo pacman -S --needed autoconf-archive automake base-devel ccache cmake curl libgl nasm ninja qt6-base qt6-tools qt6-wayland ttf-liberation tar unzip zip
+z ladybird/
+ls
+zj
+./Meta/ladybird.py run
+ls
+./Build/release/bin/Ladybird
+zi
+ls
+zig run hello.zig
+zi
+ls
+uv run src/main.py
+hx src/adventure/story.py
+uv run src/main.py
+hx src/items.py
+uv run src/main.py
+hx src/main.py
+uv run src/main.py
+lazygit
+hx src/main.py
+git stage --all
+git commit -m "changed `grese` to `grease`"
+git push
+lazygit
+hx src/main.py
+uv run src/main.py
+lazygit
+uv run src/main.py
+hx src/character.py
+uv run src/main.py
+lazygit
+uv run src/main.py
+lazygit
+hx src/character.py
+uv run src/main.py
+ls
+tree
+ls **
+ls
+ls src
+hx src/adventure/move.py
+rm src/adventure/move.py
+ls
+open README.md
+open pyproject.toml
+ls -a
+hx src/maths.py
+ls src/*.py
+ls src/**/*.py
+sudo pacman -S cloc
+cloc
+cloc src
+cloc .
+ls
+ls -a
+cloc src
+git checkout trunk
+cloc src
+ls
+uv run src/main.py
+lazygit
+lazygit
+uv run src/main.py
+lazygit
+uv run src/main.py
+lazygit
+uv run src/main.py
+lazygit
+uv run src/main.py
+lazygit
+uv run src/main.py
+sudo pacman -Syu
+reboot
+z final
+ls
+z Projects/
+ls
+z zig
+ls
+ls -a
+z -
+ls
+z AoC/2025/
+ls
+hx input/3
+hx solution/3.zig
+ls solution/
+zig run solution/3.zig
+hx solution/3.zig
+zig run solution/3.zig
+hx solution/3.zig
+zig run solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+ls input/
+32kb | as b
+32kb | as byte
+32kB | format filesize B
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+ls
+ls -a
+ls solution/
+ls -a solution/
+hx solution/template.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+cp solution/3.zig solution/template.zig
+hx solution/
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+hx ~/dotfiles/helix/.config/helix/languages.toml
+hx solution/3.zig
+hx ~/dotfiles/helix/.config/helix/languages.toml
+hx solution/3.zig
+hx solution/4.zig
+cp solution/template.zig solution/4.zig
+hx solution/4.zig
+sudo pacman -Syu
+reboot
+zi
+ls
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx input/3
+zig run solution/3.zig -- input/3
+hx input/3
+hx solution/3.zig
+zig run solution/3.zig -- input/3
+hx solution/3.zig
+hx solution/template.zig
+z dotfiles
+sls
+l
+s
+ls
+hx helix/.config/helix/config.toml
+hx helix/.config/helix/languages.toml
+z final
+hx src/maths.py
+z aoc 2025
+ls
+open input/3
+hx input/4
+ls input/
+ls solution/
+fastfetch
+~/Apps/ladybird/Build/release/bin/Ladybird
+ls
+hx solution/4.zig
+zig run solution/4.zig -- input/4
+hx solution/4.zig
+zig run solution/4.zig -- input/4
+hx solution/4.zig
+zig run solution/4.zig -- input/4
+hx solution/4.zig
+zig run solution/4.zig -- input/4
+sudo pacman -Syu
+hostname
+nmtui
+sudo nmtui
+hostname
+zi
+lscpu
+zi
+s
+ls
+ls | sort-by modified | reverse
+mkdir game-dev-club
+z game-dev-club/
+ls
+jj clone https://github.com/ncssm-mor-NyE9DoBlxs3M/platformer.git
+jj git clone https://github.com/ncssm-mor-NyE9DoBlxs3M/platformer.git
+ls
+zi platformer/
+z platformer/
+l
+sls
+ls
+ls -a
+".jj" o>> .gitignore
+open .gitignore
+lazygit
+jj bookmark track main@origin
+jj st
+godot .
+godot --help
+godot -e .
+jj
+jj st
+jj commit -m "expanded debug terrain"
+lazygit
+jj git fetch
+jj undo
+jj st
+godot -e . &
+lazygit
+$PATH
+$env.PATH
+z ../..
+l
+ls
+z cava-eww/
+ls
+z -
+mkdir cava-chars-zig
+z cava-chars-zig/
+ls
+zig init
+ls
+zig build --help
+ls
+ls -a
+ls src
+hx src/main.zig
+zig build test
+zig build --help
+ls -a
+zig build test
+rm *
+ls
+rm -rf *
+zig init-exe
+zig init --help
+zig init -m
+ls
+zig init
+l
+sls
+ls
+hx build.zig
+zig build run
+zig run
+zig build -h
+zig build-exe
+zig build
+ls
+ls -a
+zig build run all
+zig build run --summary all
+rm -rf *
+zig init
+hx build.zig
+zig build run
+zig test
+zig test all
+zig test --all
+zig test-all
+zig test -h
+zig run
+ls
+jj git init --colocate
+ls
+jj st
+jj commit -m "init"
+ls -a
+.zig-cache o>> .gitignore
+".zig-cache\nzig-out" o>> .gitignore
+open .gitignore
+jj st
+zi
+ls
+hx src/main.rs
+z -
+hx cava_conf
+cava --config cava_conf
+cava -p cava_conf
+ls
+z -
+lz
+z -
+lz
+zi
+ls
+zi
+hx src/main.zig
+zig build test "byte switching"
+zig build test
+hx src/root.zig
+zig build test
+hx src/root.zig
+zig build test
+hx src/root.zig
+zig build test
+hx src/root.zig
+zig build test
+hx src/root.zig
+zig build test
+hx src/root.zig
+zig build test
+zi
+jj fetch
+jj git fetch
+godot -e .
+jj st
+jj log
+jj discard
+jj abandon
+jj log
+jj edit r
+jj squash
+z ..
+ls
+rm -rf platformer/
+git clone https://github.com/ncssm-mor-NyE9DoBlxs3M/platformer.git
+z platformer/
+ls
+lazygit
+git pull
+git config pull.rebase true
+git pull
+lazygit
+z ..
+rm -rf platformer/
+git clone https://github.com/ncssm-mor-NyE9DoBlxs3M/platformer.git
+z platformer/
+hx src/root.zig
+z platformer/
+zig build test
+hx src/root.zig
+zig build test
+lz
+ls
+z ..
+rm -rf cava-chars-zig/
+ls
+mkdir bf-interpreter-zig
+z bf-interpreter-zig/
+zig init
+hx src/main.rs
+z aoc
+z 2025/
+hx src/main.zig
+zig build run
+zig run
+zig build run
+ls -a
+ls
+zig-out/bin/bf_interpreter_zig
+zig build run
+zig build run -- hello.bf
+hx src/main.zig
+zig build run -- hello.bf
+zig-out/bin/bf_interpreter_zig hello.bf
+zig-out/bin/bf_interpreter_zig
+zi
+lazygit
+git config pull.rebase true
+lazygit
+git log
+git revert eb678d4ca80304c6f47091a6a3548529104b6538
+lazygit
+z ..
+rm -rf platformer/
+git clone https://github.com/ncssm-mor-NyE9DoBlxs3M/platformer.git
+z platformer/
+lazygit
+godot -e .
+zi
+sudo pacman -S blender
+sudo pacman -Syu
+reboot
+blender 
+python -m pip install math
+pacman -S python-math
+sudo pacman -S python-math
+blender
+sudo pacman -R blender
+sudo pacman -S blender
+sudo pacman -S intel-compute-runtime
+blender
+pacman -Qk python
+sudo pacman -S python
+blender
+open /tmp/blender.crash.txt
+open .config/hypr/hyprland.conf
+pacman -Qe
+pacman -Qe | grep python
+pacman -R python
+sudo pacman -R python
+sudo pacman -Rns python
+man pacman
+sudo pacman -Rd python
+sudo pacman -Rdd python
+uv python install
+python3.13 
+uv python install --default
+python --version
+blender
+sudo pacman -S python
+blender
+sudo pacman -R blender
+sudo pacman -S python python-pip git git-lfs
+git lfs install --skip-repo
+z Downloads/
+git clone https://projects.blender.org/blender/blender-manual.git
+z blender-manual/
+ls
+pip install -r requirements.txt
+ls -a
+pip3 install -r requirements.txt
+z ..
+"https://github.com/Typhoon1551/CS4120-final-project.git" o> url.txt
+ope url.txt
+open url.txt
+z -
+ls
+uv venv .venv
+.venv/bin/activate.nu
+overlay use .venv/bin/activate.nu 
+uv add -r requirements.txt
+uv install -r requirements.txt
+exit
+z blender
+uv pip install -r requirements.txt
+make
+make -j8
+z ..
+rm -rf blender-manual/
+nmtui
+ls
+unzip wood_cabinet_worn_long_4k.blend.zip
+ls
+ls *.avif
+convert full-frame-shot-dark-wooden-planks_1048944-22847346.avif floorboards.png
+magick full-frame-shot-dark-wooden-planks_1048944-22847346.avif floorboards.png
+ls *.avif
+magick white-marble-texture-background-pattern-with-high-resolution_38648-64.avif marble.png
+ls *.avif
+magick il_1080xN.1120115365_hajg.avif raven.png
+sudo pacman -Syu
+ls
+zi
+ls
+zig build run -- hello.bf
+zig build run
+zig build run -- hello.bf
+zig build
+./zig-out/bin/bf_interpreter_zig hello.bf
+hx src/root.zig
+sudo pacman -Syu
+ping 1.1.1.1
+nmtui
+lsblk 
+z Downloads/
+ls
+lsblk
+ls /dev
+lsblk
+sudo dd if=~/Downloads/nixos-minimal-25.11.1335.09eb77e94fa2-x86_64-linux.iso of=/dev/sdb bs=32M status=progress
+sudo dd if=/home/tylerv/Downloads/nixos-minimal-25.11.1335.09eb77e94fa2-x86_64-linux.iso of=/dev/sdb bs=32M status=progress
+z dotfiles
+ls
