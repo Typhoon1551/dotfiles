@@ -868,3 +868,7 @@ sudo dd if=~/Downloads/nixos-minimal-25.11.1335.09eb77e94fa2-x86_64-linux.iso of
 sudo dd if=/home/tylerv/Downloads/nixos-minimal-25.11.1335.09eb77e94fa2-x86_64-linux.iso of=/dev/sdb bs=32M status=progress
 z dotfiles
 ls
+lazygit
+niri msg outputs
+hx niri/.config/niri/config.kdl
+hx eww/.config/eww/eww.yuck
