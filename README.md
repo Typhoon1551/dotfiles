@@ -13,8 +13,7 @@ These are my dotfiles
 ### Dependencies
 
 For the audio visualizer in the taskbar you must:
-- Install [https://github.com/Typhoon1551/cavablocks](https://github.com/Typhoon1551/cavablocks)
-- Change the path of the `cavablocks` symlink to the path of your executable
+- Install [https://github.com/Typhoon1551/cavablocks](https://github.com/Typhoon1551/cavablocks) or [https://github.com/Typhoon1551/cavablocks-zig](https://github.com/Typhoon1551/cavablocks-zig) (they're the same).
 
 ### Usage
 

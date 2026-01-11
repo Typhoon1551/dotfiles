@@ -1,3 +1,5 @@
+
+
 (defwindow testbox
   :monitor 0
   :geometry (geometry
@@ -219,7 +221,7 @@
 
 ;; Audio Visualizer + media controls
 
-(deflisten cava "./scripts/cavablocks 20 30")
+(deflisten cava "cavablocks 30 30")
 ;(deflisten media-status "./modules/mediactl")
 
 (
