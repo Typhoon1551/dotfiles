@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<labwc_config>
+  <desktops number="4" />
+  <theme>
+    <cornerRadius>0</cornerRadius>
+    <font>
+      <name>JetBrainsMono Nerd Font Mono</name>
+      <size>10</size>
+    </font>
+  </theme>
+  <keyboard>
+    <default />
+    <!-- The W- prefix refers to the Super key -->
+    <keybind key="W-Space">
+      <action name="Execute" command="qs -p ~/Projects/qs-shell ipc call appLauncher toggle" />
+    </keybind>
+    <keybind key="W-S-e">
+      <action name="Exit" />
+    </keybind>
+    <keybind key="W-S-r">
+      <action name="Reconfigure" />
+    </keybind>
+    <keybind key="W-A-l">
+      <action name="Execute" command="swaylock" />
+    </keybind>
+    <keybind key="W-Tab">
+      <action name="Execute" command="qs -p ~/Projects/qs-shell ipc call windowSwitcher toggle" />
+    </keybind>
+    <keybind key="W-w">
+      <action name="Execute" command="qs -p ~/Projects/qs-shell ipc call workspacePicker toggle" />
+    </keybind>
+    <keybind key="W-1">
+      <action name="GoToDesktop" to="1" />
+    </keybind>
+    <keybind key="W-2">
+      <action name="GoToDesktop" to="2" />
+    </keybind>
+    <keybind key="W-3">
+      <action name="GoToDesktop" to="3" />
+    </keybind>
+    <keybind key="W-4">
+      <action name="GoToDesktop" to="4" />
+    </keybind>
+    <keybind key="W-q">
+      <action name="Execute" command="kitty" />
+    </keybind>
+    <keybind key="W-c">
+      <action name="Close" />
+    </keybind>
+    <keybind key="XF86AudioRaiseVolume">
+      <action name="Execute" command="qs -p ~/Projects/qs-shell ipc call audio up" />
+    </keybind>
+    <keybind key="XF86AudioLowerVolume">
+      <action name="Execute" command="qs -p ~/Projects/qs-shell ipc call audio down" />
+    </keybind>
+    <keybind key="XF86AudioMute">
+      <action name="Execute" command="qs -p ~/Projects/qs-shell ipc call audio toggleMute" />
+    </keybind>
+    <keybind key="XF86AudioPlay">
+      <action name="Execute" command="qs -p ~/Projects/qs-shell ipc call media playPause" />
+    </keybind>
+    <keybind key="XF86AudioNext">
+      <action name="Execute" command="qs -p ~/Projects/qs-shell ipc call media next" />
+    </keybind>
+    <keybind key="XF86AudioPrev">
+      <action name="Execute" command="qs -p ~/Projects/qs-shell ipc call media previous" />
+    </keybind>
+    <keybind key="XF86MonBrightnessUp">
+      <action name="Execute" command="qs -p ~/Projects/qs-shell ipc call brightness up" />
+    </keybind>
+    <keybind key="XF86MonBrightnessDown">
+      <action name="Execute" command="qs -p ~/Projects/qs-shell ipc call brightness down" />
+    </keybind>
+    <keybind key="Print">
+      <action name="Execute" command="bash ~/.config/labwc/scripts/screenshot.sh full" />
+    </keybind>
+    <keybind key="S-Print">
+      <action name="Execute" command="bash ~/.config/labwc/scripts/screenshot.sh region" />
+    </keybind>
+    <keybind key="W-S-slash">
+      <action name="Execute" command="qs -p ~/Projects/qs-shell ipc call keybindHelper toggle" />
+    </keybind>
+  </keyboard>
+</labwc_config>

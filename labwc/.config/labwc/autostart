@@ -1,0 +1,5 @@
+bash ~/Projects/qs-shell/scripts/sync-wallpaper.sh &
+qs -p ~/Projects/qs-shell >/dev/null 2>&1 &
+swayidle -w timeout 300 'swaylock -f' before-sleep 'swaylock -f' >/dev/null 2>&1 &
+wl-paste --type text --watch cliphist store &
+wl-paste --type image --watch cliphist store &
