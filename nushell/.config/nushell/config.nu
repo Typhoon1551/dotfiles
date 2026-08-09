@@ -17,12 +17,21 @@
 # options using:
 #     config nu --doc | nu-highlight | less -R
 
+
+$env.PATH ++= ["~/.cargo/bin"]
+$env.PATH ++= ["~/.local/bin"]
+
 $env.config.buffer_editor = "helix"
 $env.config.table.mode = "double"
+$env.config.show_banner = false
 
 mkdir ($nu.data-dir | path join "vendor/autoload")
 starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
 
 alias zj = zellij
+alias hx = helix
+alias icat = kitten icat
 
 source ~/.zoxide.nu
+
+

@@ -20,7 +20,7 @@ language-servers = ["yuckls"]
 
 [language.indent]
 unit = "\t"
-tab-width = 3
+tab-width = 5
 
 [[language]]
 name = "latex"
@@ -41,14 +41,14 @@ args = [
 
 [language.indent]
 unit = "\t"
-tab-width = 3
+tab-width = 5
 
 [[language]]
 name = "haskell"
 scope = "source.hs"
 file-types = ["hs"]
 auto-format = true
-indent = { unit = "\t", tab-width = 3 }
+indent = { unit = "\t", tab-width = 5 }
 
 [[language]]
 name = "toml"
@@ -60,7 +60,7 @@ args = ["fmt", "-"]
 
 [language.indent]
 unit = "\t"
-tab-width = 3
+tab-width = 5
 
 [[language]]
 name = "qml"
@@ -73,7 +73,7 @@ args = ["%{buffer_name}"]
 
 [language.indent]
 unit = "\t"
-tab-width = 3
+tab-width = 5
 
 [[language]]
 name = "zig"
@@ -81,7 +81,20 @@ auto-format = true
 
 [language.indent]
 unit = "\t"
-tab-width = 3
+tab-width = 5
+
+[[language]]
+name = "typescript"
+file-types = ["ts"]
+
+[language.indent]
+unit = "\t"
+tab-width = 5
+
+[[language]]
+name = "typst"
+formatter.command = "typstyle"
+auto-format = true
 
 [language-server]
 yuckls = { command = "dotnet", args = [
@@ -92,7 +105,7 @@ yuckls = { command = "dotnet", args = [
 [language-server.texlab]
 command = "texlab"
 config = { texlab = { build = { onSave = true } } }
-indent = { tab-width = 3, unit = "\t" }
+indent = { tab-width = 5, unit = "\t" }
 
 [language-server.qmlls]
 args = ["-E"]

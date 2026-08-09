@@ -1,7 +1,7 @@
 # vim:fileencoding=utf-8:foldmethod=marker
 
 # BEGIN_KITTY_THEME
-# Rosé Pine Dawn
+# Rosé Pine
 include current-theme.conf
 # END_KITTY_THEME
 
@@ -2794,8 +2794,8 @@ editor helix
 
 
 # BEGIN_KITTY_FONTS
-font_family      family="0xProto Nerd Font Mono"
-bold_font        auto
+font_family      family="JetBrainsMono Nerd Font"
+bold_font        family='JetBrainsMono Nerd Font' style=Bold
 italic_font      auto
-bold_italic_font auto
+bold_italic_font family='JetBrainsMono Nerd Font' style='Bold Italic'
 # END_KITTY_FONTS

@@ -872,3 +872,1870 @@ lazygit
 niri msg outputs
 hx niri/.config/niri/config.kdl
 hx eww/.config/eww/eww.yuck
+reddix
+which reddix
+fish
+hx $nu.config-path
+exit
+hx $nu.config-path
+helix $nu.config-path
+hx $nu.env-path
+helix $nu.env-path
+helix $nu.config-path
+hx $nu.env-path
+which reddix
+reboot
+sudo pacman -Syu
+eww logs
+hx $nu.config-path
+tty
+hx $nu.config-path
+niri-session 
+tty
+hx $nu.config-path
+nu
+hx $nu.config-path
+(^tty)
+tty
+tty == "/dev/tty1"
+(tty) == "/dev/tty1"
+hx $nu.config-path
+nu
+zi
+ls
+eww logs
+hx eww.yuck
+eww open niribar
+eww logs
+eww daemon
+eww open niribar
+eww logs
+sudo pacman -Syu
+reboot
+hx $nu.config-path
+eww logs
+sudo pacman -Syu
+reboot
+z projects
+;s
+ls
+;ls;
+mkdir vulkan_demo
+z vulkan_demo/
+zig init
+zig fetch --save https://github.com/Snektron/vulkan-zig.git
+zig fetch --save "https://github.com/Snektron/vulkan-zig/archive/b4f5aa2571397f961999322236012132b38a2286.tar.gz"
+open build.zig.zon
+zig fetch --save "https://github.com/KhronosGroup/Vulkan-Headers/archive/v1.3.283.tar.gz"
+hx build.zig.zon
+zig fetch "https://github.com/KhronosGroup/Vulkan-Headers/archive/v1.3.283.tar.gz"
+hx build.zig.zon
+hx build.zig
+which glslc
+glslc --help
+man glslc
+zig build
+hx build.zig.zon
+zig build
+hx build.zig
+zig build
+fastfetch
+sudo pacman -S flatpak
+z Downloads/
+ls
+ls *.flatpak
+flatpak install hytale-launcher-latest.flatpak
+flatpak run com.hypixel.HytaleLauncher
+5 + 5
+tty
+82+16
+82 + 16
+zig build
+[10..99]
+[10 ... 99]
+[10 .. 99[<\n>]<\n><\n><\n>]
+[10 .. 99]
+clear
+sudo pacman -Syu
+reboot
+tty
+ls
+{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}
+{{ f }}
+ps
+zi
+ls
+clock
+date
+date now
+sudo pacman -Syu
+reboot
+eww logs
+eww open niribar --restart
+eww logs
+pkill eww
+eww daemon
+eww open niribar
+eww logs
+nmtui
+sudo pacman -Syu
+reboot
+reddix
+ls
+z School/
+ls
+mkdir DiscreteMath
+z DiscreteMath/
+ls
+hz HW4
+hx HW4
+ls
+rm HW4
+fastfetch
+clock
+hx HW4.md
+9 * 15
+sudo pacman -Syu
+reboot
+sudo pacman -S qbittorrent
+z Downloads/
+ls
+ls *.torrent
+z
+sudo pacman -S croc
+croc -h
+z Downloads/
+croc send `BBBBBBBBBBBBBBB (2).torrent`
+sudo pacman -Syu
+reboot
+eww logs
+eww open niribar
+eww daemon
+eww open niribar
+eww logs
+sudo pacman -S foot
+fastfetch
+cargo install canoe
+canoe
+ls
+mkdir build
+ls
+z build/
+git clone https://codeberg.org/river/river.git
+z river/
+ls
+zig build -h
+zig build --release=fast -Doptimize=ReleaseFast --prefix ~/.local -Dxwayland=true install
+print "zig build --release=fast -Doptimize=ReleaseFast --prefix ~/.local -Dxwayland=true install" o> build
+chmod +x build
+./build
+cat ./build
+read ./build
+open ./build
+hx build
+./build
+z ..
+git clone https://gitlab.freedesktop.org/wlroots/wlroots.git
+z wlroots/
+ls
+pacman -Q meson
+sudo pacman -S meson
+pacman -Q -h
+pacman -Q wayland
+pacman -S wayland
+sudo pacman -S wayland
+pacman -Q sway
+pacman -Q i3-wm
+pacman -Q wayland-protocols
+pacman -Q egl-wayland
+which libegl
+pacman -Q libdrm
+pacman -Q gbm
+pacman -Q libinput
+pacman -Q egl-gbm
+pacman -Q xkbcommon
+pacman -Q libxkbcommon
+pacman -Q udev
+pacman -Q pixman
+pacman -Q libseat
+pacman -Q seatd
+pacman -Q hwdata
+pacman -Q libdisplay-info
+pacman -Q libliftoff
+pacman -Q vulkan-icd-loader
+pacman -Q vulkan-headers
+sudo pacman -S vulkan-headers
+pacman -Q xwayland
+pacman -Q xorg-xwayland
+pacman -Q libxcb
+pacman -Q libxcb-render-util
+pacman -Q libxcb-util-renderutil
+sudo pacman -S libxcb-util-renderutil
+pacman -Q xcb-util-renderutil
+pacman -Q libxcb-wm
+pacman -Q xcb-util-wm
+pacman -Q xcb-util-errors
+meson setup build/
+ninja -C build/
+sudo ninja -C build/ install
+which wlroots
+z ..
+z river/
+pacman -Q libxcbcommon
+sudo pacman -S libxcbcommon
+sudo pacman -S libxkbcommon
+pacman -Q libevdev
+pacman -Q pixman
+pacman -Q pkg-config
+./build
+ls /lib
+sudo pacman -S wlroots0.19
+./build
+which river
+open ./build
+ls
+ls ~/.local/
+ls ~/.local/bin
+river
+$env.PATH
+hx $nu.config-path
+river
+canoe
+which canoe
+z
+z .config/
+ls
+river -c .cargo/bin/canoe
+niri-session 
+river -c .cargo/bin/canoe
+z .config/
+ls
+mkdir canoe
+vicinae
+vicnae open
+vicinae open
+vicinae server
+vicinae open
+fg
+vesktop
+vicinae open
+nmtui
+vicinae open
+z Apps/
+ls
+z ladybird/
+git fetch
+lz canoe/
+z canoe/
+la
+ls
+hx canoe.toml
+hx launch_canoe
+which nu
+hx launch_canoe
+chmod +x launch_canoe
+vicinae open
+htop
+btop
+htop
+sudo pacman -S htop
+htop
+sudo pacman -Syu
+reboot
+hx .config/canoe/launch_canoe
+reboot
+sudo pacman -Syu
+reboot
+ls
+z School/
+ls
+z PH4020/
+ls
+z Lab9/
+ls
+open lab-9.tex
+z
+ls
+z build/
+ls
+z
+ls
+z Apps/
+ls
+z
+z Projects/
+ls
+z vulkan_demo/
+ls
+zig build
+zig version
+yay -S zig-master-bin
+sudo pacman -Syu
+reboot
+z
+ls
+z School/
+ls
+z -
+ls
+z Projects/
+ls
+z game-dev-club/
+ls
+z platformer/
+ls
+git pull
+lazygit
+godot -e .
+git pull
+git discarc
+lazygit
+godot -e .
+lazygit
+zi
+ls
+ls assets/
+godot -e .
+lazygit
+z ..
+rm -rf platformer/
+git clone https://github.com/ncssm-mor-NyE9DoBlxs3M/platformer.git
+z platformer/
+which zig
+zi
+ls
+hx build.zig.zon
+zig fetch https://github.com/Snektron/vulkan-zig/commit/1446b0b994c2362264cc24513d7c7ec31b469c50
+zig fetch https://github.com/Snektron/vulkan-zig/archive/1446b0b994c2362264cc24513d7c7ec31b469c50.tar.gz
+hx build.zig.zon
+zig fetch --save https://github.com/Snektron/vulkan-zig/archive/1446b0b994c2362264cc24513d7c7ec31b469c50.tar.gz
+hx build.zig.zon
+hx build.zig
+hx build.zig.zon
+zig build
+zi
+ls
+git clone https://github.com/Typhoon1551/canoe.git
+z canoe/
+cargo run
+river -c target/debug/canoe
+zi
+ls
+ps
+kill 15107
+ls
+z src
+ls
+hx config.rs
+sudo pacman -Syu
+reboot
+zi
+ls
+z src
+ls
+hx main.rs
+cargo build
+sudo pacman -Syu
+reboot
+sudo pacman -Syu
+reboot
+sudo pacman -Syu
+reboot
+sudo pacman -Syu
+reboot
+journalctl 
+vicinae open
+reboot
+sudo pacman -Syu
+reboot
+which kitty
+pacman -Q kitty
+config nu
+clear
+fastfetch
+clear
+which cowsay
+cowsay hello
+()
+(<\n><\n><\n><\n>)
+sudo pacman -Syu
+shutdown 
+shutdown now
+sudo pacman -Syu
+reboot
+eww logs
+eww open niribar --restart
+eww logs
+fastfetch
+sudo pacman -Syu
+reboot
+sudo pacman -Syu
+reboot
+sudo pacman -Syu
+nmtui
+sudo pacman -Syu
+reboot
+sudo pacman -Syu
+reboot
+sudo pacman -S typst
+hx --health typst
+sudo pacman -S tinymist
+hx --health typst
+hx --health zig
+hx --health typst
+z School/
+ls
+mkdir LinAlg
+z LinAlg/
+ls
+mkdir Page_Rank_Investigation
+z Page_Rank_Investigation/
+hx doc.typ
+ls
+typst watch doc.typ
+doc.typ
+firefox doc.typ
+hx doc.typ
+ls
+firefox doc.pdf
+fastfetch
+sudo pacman -Syu
+reb
+reboot
+sudo pacman -Syu
+reboot
+ls
+zi
+ls
+mkdir physics_2
+z physics_2/
+ls
+mkdir lab_week_4
+z lab_week_4/
+ls
+typst watch repo
+firefox report.pdf
+hx report.typ
+zj
+sudo pacman -Syu
+sudo pacman -R texlive
+sudo pacman -R texlive kile dvisvgm
+sudo pacman -Syu
+reboot
+nmtui
+sudo pacman -Syu
+reboot
+nmtui
+reboot
+sudo pacman -Syu
+reboot
+zi
+ls **/*.webp
+ls
+for $file in (ls **/*.webp).name {}
+z misc
+ls
+icat if-i-get-any-closer-you-might-fall-in-v0-4ogugz95wdng1.webp
+magick if-i-get-any-closer-you-might-fall-in-v0-4ogugz95wdng1.webp doggy_close.png
+rm if-i-get-any-closer-you-might-fall-in-v0-4ogugz95wdng1.webp
+icat is-this-how-you-want-me-v0-b06tjrdpldng1.webp
+ls
+magick is-this-how-you-want-me-v0-b06tjrdpldng1.webp doggy_1.png
+rm is-this-how-you-want-me-v0-b06tjrdpldng1.webp
+z ..
+ls
+ls **/*.webp
+z luna_bunny/
+ls
+icat hows-the-view-from-back-there-v0-gsvmu28z5vgg1.webp
+ls
+magick hows-the-view-from-back-there-v0-gsvmu28z5vgg1.webp doggy_2.png
+rm hows-the-view-from-back-there-v0-gsvmu28z5vgg1.webp
+z ..
+lazygit
+sudo pacman -Syu
+reboot
+which npm
+ls
+z Projects/
+ls
+git clone https://github.com/mesoscopic/smathhacks-26.git
+z smathhacks-26/
+ls
+sudo pacman -S nvm
+sudo pacman -S fnm
+which fnm
+fnm install 24
+node -v
+npm install typescript --save-dev
+hx hello.ts
+hx --health ts
+hx --health typescript
+npx tsc hello.ts
+ls
+node hello.js
+mkdir src
+mv hello.ts src/
+ls
+rm hello.js
+npx tsc --out-dir out/ src/hello.ts
+npx tsc --outDir out/ src/hello.ts
+ls
+node out/hello.js
+mv src/hello.ts src/main.ts
+hx tsconfig.json
+npx tsc
+ls
+ls out
+rm out/hello.js
+ls out
+node out/main.js
+ls
+lazygit
+hx .gitignore
+lazygit
+npx tsc
+ls
+ls -a
+npx tsc
+open .gitignore
+npm install
+npx tsc
+ls out/
+lazygit
+hx tsconfig.json
+npx tsc
+ls out/
+lazygit
+ls
+git pull
+npm install tone --save-dev
+ls src
+hx src/main.ts
+hx --health typescript
+sudo pacman -S typescript-language-server
+hx --health typescript
+hx src/main.ts
+npx tsc
+hx tsconfig.json
+npx tsc
+hx tsconfig.json
+npx tsc
+ls
+ls src
+git pull
+ls -a
+lazygit
+open index.html
+firefox index.html
+hx index.html
+npm tsc
+npx tsc
+hx tsconfig.json
+npx tsc
+hx tsconfig.json
+npx tsc
+hx tsconfig.json
+npx tsc
+hx tsconfig.json
+npx tsc
+npm install tone
+npx tsc
+rm -rf node_modules/
+npm install
+npx tsc
+ls node_modules/
+npm install @types/tone
+npm install tone/@types
+npm install tone@types
+hx src/main.ts
+npx tsc
+hx tsconfig.json
+npx tsc
+hx tsconfig.json
+npx tsc
+open out/main.js
+hx index.html
+npx tsc
+open out/main.js
+hx index.html
+open index.html
+npx tsc
+hx tsconfig.json
+npx tsc
+hx tsconfig.json
+hx index.html
+npx tsc
+hx server.py
+zi
+ls
+hx src/main.ts
+npx tsc
+hx src/main.ts
+npx tsc
+npm install --save-dev webpack webpack-cli
+webpack
+npx webpack
+ls
+npx webpack ./src
+npx webpack ./out/
+npx webpack ./out/main.js
+ls
+ls dist
+hx index.html
+hx src/main.ts
+npx tsc
+npx webpack ./out/main.js
+lazygit
+hx .gitignore
+lazygit
+hx build
+chmod +x build
+./build
+ls
+hx build
+./build
+hx index.html
+git pull
+hx index.html
+hx src/main.ts
+./build
+lazygit
+hx src/main.ts
+./build
+hx src/main.ts
+ls src/
+hx src/music/main.ts
+./build
+git pull
+lazygit
+./build
+lazygit
+ls src/
+hx package.json
+npm install --save-dev ts-node @types/node
+hx webpack.config.ts
+npx webpack
+webpack -c ./webpack.config.ts
+npx webpack -c ./webpack.config.ts
+hx webpack.config.ts
+npx webpack -c ./webpack.config.ts
+npx webpack
+npm install ts-loader
+npx webpack
+ls
+ls dist
+ls out
+rm -rf dist out
+ls
+npx webpack
+npx webpack -c ./webpack.config.ts
+ls
+ls dist
+rm build
+lazygit
+hx src/music/main.ts
+npx webpack
+ls dist
+hx src/music/main.ts
+npx webpack
+npm install
+ls
+open package.json
+lazygit
+npx webpack
+ls
+hx index.html
+npx webpack
+hx index.html
+ls ima
+ls images/
+npx webpack
+ls
+lazygit
+hx src/main.ts
+lazygit
+npx webpack
+lazygit
+hx src/music/main.ts
+npx webpack
+lazygit
+npx webpack
+open server.py
+hx stylesheet.css
+rm server.py
+hx server
+python server.py
+chmod +x server
+lazygit
+hx ~/.config/helix/languages.toml
+hx src/main.ts
+hx ~/.config/helix/languages.toml
+hx src/main.ts
+lazygit
+npx webpack
+ls
+ls node_modules/
+hx src/music/main.ts
+lazygit
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+lazygit
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/main.ts
+npx webpack
+hx src/main.ts
+lazygit
+npx webpack
+hx src/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+lazygit
+hx
+npx webpack
+hx src/data/main.ts
+./server
+server
+lazygit
+npx webpack
+hx src/music/main.ts
+npx webpack
+lazygit
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+lazygit
+npx webpack
+git pull
+npx webpack
+git pull
+npx webpack
+npm install
+npx webpack
+hx 
+npx webpack
+./server
+ls
+python server.py
+sudo pacman -Syu
+reboot
+zi
+ls
+zi
+ls
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+git pull
+lazygit
+git st
+git status
+lazygit
+git log
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+lazygit
+python server.py
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+lazygit
+npx webpack
+lazygit
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+lazygit
+hx src/music/main.ts
+npx webpack
+lazygit
+ls
+rm -rf dist
+rm -rf node_modules/
+npm install
+npx webpack
+sudo pacman -Syu
+reboot
+fastfetch
+cowsay help me
+cowsay help me im trapped in smath hacks
+cowsay the n word
+cbonsai
+pipes.sh
+ls
+curl ysap.sh
+curl ysap.sh/episodes
+curl ysap.sh/json
+curl ysap.sh
+clear
+niri-session 
+ssh terminal.shop
+zi
+git pull
+npx webpack
+ls src/**
+ls src/**/*
+ls src
+hx src/main.ts
+npm install --save-dev vexflow
+hx index.html
+npx webpack
+npm install VexFLow
+hx src/music/main.ts
+npm install VexFLow
+npx webpack
+hx src/music/main.ts
+lazygit
+npx webpack
+git status
+git log
+hx src/music/main.ts
+npx webpack
+hx index.html
+hx src/music/main.ts
+npx webpack
+hx index.html
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+hx src/music/main.ts
+npx webpack
+zi
+ls
+ls images/
+info 
+file images/earth.jpg
+hx index.html
+file images/earth.jpg
+npx webpack
+hx index.html
+lazygit
+npx webpack
+lazygit
+npx webpack
+hx index.html
+uv run server.py
+git pull
+lazygit
+sudo pacman -Syu
+reboot
+zi
+ls
+mkdir lab_week_6
+ls lab_week_4/
+cp lab_week_4/report.typ lab_week_6/report.typ
+z lab_week_6/
+ls
+rm report.typ
+z ..
+cp lab_week_4/report.typ report.typ
+hx report.typ
+cp report.typ lab_week_6/
+ls lab_week_6/
+z lab_week_6/
+firefox report.pdf
+hx report.typ
+z
+zj
+sudo pacman -Syu
+reboot
+zi
+git pull
+./Meta/ladybird.py run
+sudo pacman -Syu
+reboot
+sudo pacman -Syu
+reboot
+zi
+z ..
+ls
+zi
+ls
+z LinAlg/
+ls
+rm -rf Page_Rank_Investigation/
+mkdir project_2
+z project_2/
+ls
+touch report.typ
+firefox report.pdf
+hx report.typ
+zi
+git pull
+sudo pacman -Syu
+reboot
+zi
+ls
+firefox report.pdf
+hx report.typ
+hx ~/.config/helix/languages.toml
+hx report.typ
+sudo pacman -S typstyle
+sudo pacman -Syu
+reboot
+sudo pacman -S zathura
+zi
+zathura report.pdf
+sudo pacman -S zathura-pdf-poppler
+zathura report.pdf
+job unfreeze 
+zathura report.pdf &
+zi
+ls
+mkdir lab_wk_7
+cp report.typ lab_wk_7/
+zj lab_wk_7/
+ls lab_wk_7/
+z lab_wk_7/
+ls
+hx report.typ
+hx ../report.typ
+hx report.typ
+z Downloads/
+ls
+ls *.heic
+ls *.HEIC
+icat IMG_1293.HEIC
+clear
+magick IMG_1293.HEIC headshot.png
+ls *.png
+magick headshot.png -strip
+magick headshot.png -strip headshot.png
+ls *.png
+magick headshot.png -resize 75% headshot.png
+ls *.png
+sudo pacman -Syu
+reboot
+zathura report.pdf
+zi
+sudo pacman -Syu
+reboot
+zi
+ls
+ls misc
+icat misc/doggy_cumshot.png
+mkdir mia_ipanema
+ls *.webp
+icat crazy-side-view-v0-bcsqon17rwrg1.webp
+magick crazy-side-view-v0-bcsqon17rwrg1.webp mia_ipanema/backside_0.png
+icat getting-a-stretch-v0-qypyvbk50uqg1.webp
+magick getting-a-stretch-v0-qypyvbk50uqg1.webp mia_ipanema/doggy_0.png
+ls *.webp
+icat pov-from-your-cock-v0-id9kxc2qo1qg1.webp
+magick pov-from-your-cock-v0-id9kxc2qo1qg1.webp mia_ipanema/doggy_1.png
+ls mia_ipanema/
+mv misc/doggy_cumshot.png mia_ipanema/
+ls mia_ipanema/
+rm *.webp
+ls *.webp
+ls
+ls **/*.webp
+z luna_bunny/
+ls
+icat now-i-just-need-a-cock-to-wrap-this-around-v0-0ua91q9mj6qg1.webp
+magick now-i-just-need-a-cock-to-wrap-this-around-v0-0ua91q9mj6qg1.webp doggy_3.png
+ls
+rm now-i-just-need-a-cock-to-wrap-this-around-v0-0ua91q9mj6qg1.webp
+z ..
+ls **/*.webp
+z misc
+ls
+icat getting-my-morning-sun-rays-v0-4e2j4t43qurg1.webp
+ls
+magick getting-my-morning-sun-rays-v0-4e2j4t43qurg1.webp frogbutt_1.png
+rm getting-my-morning-sun-rays-v0-4e2j4t43qurg1.webp
+icat i-wonder-if-our-uni-classmates-know-that-we-post-these-v0-73eufl8udlrg1.webp
+magick i-wonder-if-our-uni-classmates-know-that-we-post-these-v0-73eufl8udlrg1.webp doggy_stacked
+magick i-wonder-if-our-uni-classmates-know-that-we-post-these-v0-73eufl8udlrg1.webp doggy_stacked.png
+ls
+rm doggy_stacked i-wonder-if-our-uni-classmates-know-that-we-post-these-v0-73eufl8udlrg1.webp
+ls
+z ..
+ls **/*.webp
+z nfu
+icat fresh-shaved-pusses-taste-the-best-v0-2aemdmi60epg1.webp
+ls
+magick fresh-shaved-pusses-taste-the-best-v0-2aemdmi60epg1.webp mission_16.png
+ls
+rm fresh-shaved-pusses-taste-the-best-v0-2aemdmi60epg1.webp
+lazygit
+z Downloads/
+ls
+unzip goblin_nest_demo_v0.43.zip
+yay -S bottles
+reboot
+nmtui
+zi
+ls
+z luna_bunny/
+ls
+icat backside.png
+ls
+z Downloads/
+ls
+ls | column size | sum
+ls.size
+(ls).size
+(ls).size | sum
+sum((ls).size)
+sum (ls).size
+sum ...(ls).size
+(ls).size
+rm -rf *
+ls
+htop
+btop
+nmtui
+yazi
+clear
+reboot
+zi
+hx report.typ
+typs help
+typst help
+typst c report.typ
+ls
+zathura report.pdf
+sudo pacman -Syu
+reboot
+nmtui
+sudo pacman -Syu
+reboot
+nmtui
+sudo pacman -Syu
+reboot
+zi
+ls
+icat 64q4q91optwg1.mp4
+icat chun-li-level-grip-v0-aoasyiv3iewg1.webp
+magick chun-li-level-grip-v0-aoasyiv3iewg1.webp mia_ipanema/doggy_2.png
+ls mia_ipanema/
+ls
+rm chun-li-level-grip-v0-aoasyiv3iewg1.webp
+icat fresh-shaved-pusses-taste-the-best-v0-2aemdmi60epg1.webp
+magick fresh-shaved-pusses-taste-the-best-v0-2aemdmi60epg1.webp nfu/closeup_4.png
+ls nfu
+rm fresh-shaved-pusses-taste-the-best-v0-2aemdmi60epg1.webp
+ls
+icat hes-locked-in-v0-ukf0ao8wemvg1.webp
+magick hes-locked-in-v0-ukf0ao8wemvg1.webp mia_ipanema/doggy_3.png
+rm hes-locked-in-v0-ukf0ao8wemvg1.webp
+ls
+icat if if-i-send-you-pics-like-that-after-just-one-chat-on-tinder-v0-lanveq3j0hpg1.webp
+icat if-i-send-you-pics-like-that-after-just-one-chat-on-tinder-v0-lanveq3j0hpg1.webp
+magick if-i-send-you-pics-like-that-after-just-one-chat-on-tinder-v0-lanveq3j0hpg1.webp aysa_little/doggy_0.png
+rm if-i-send-you-pics-like-that-after-just-one-chat-on-tinder-v0-lanveq3j0hpg1.webp
+ls
+icat ill-let-you-choose-which-hole-to-go-balls-deep-into-3-v0-87elf38q5qwg1.webp
+magick ill-let-you-choose-which-hole-to-go-balls-deep-into-3-v0-87elf38q5qwg1.webp luna_bunny/backside_3.png
+rm ill-let-you-choose-which-hole-to-go-balls-deep-into-3-v0-87elf38q5qwg1.webp
+ls
+icat in-case-youre-into-phat-ass-asians-v0-evds0ew9swc91.webp
+magick in-case-youre-into-phat-ass-asians-v0-evds0ew9swc91.webp mia_ipanema/backside_1.png
+rm in-case-youre-into-phat-ass-asians-v0-evds0ew9swc91.webp
+ls
+icat my-party-trick-v0-46g85e4c6otg1.webp
+ls
+icat round-two-with-xlovelyadrianax-was-new-content-going-up-on-v0-cl4wn1kb41491.webp
+magick round-two-with-xlovelyadrianax-was-new-content-going-up-on-v0-cl4wn1kb41491.webp mia_ipanema/double_dildo.png
+rm round-two-with-xlovelyadrianax-was-new-content-going-up-on-v0-cl4wn1kb41491.webp
+ls
+icat would
+icat would-you-pull-on-my-braids-while-i-grip-you-v0-vi58c8ycrk481.webp
+magick would-you-pull-on-my-braids-while-i-grip-you-v0-vi58c8ycrk481.webp mia_ipanema/doggy_4.png
+rm would-you-pull-on-my-braids-while-i-grip-you-v0-vi58c8ycrk481.webp
+ls
+yazi
+ls
+icat my-party-trick-v0-46g85e4c6otg1.webp
+magick my-party-trick-v0-46g85e4c6otg1.webp marley_coe/doggy_shower.png
+rm my-party-trick-v0-46g85e4c6otg1.webp
+ls
+icat my-party-trick-v0-pj86se4c6otg1.webp
+magick my-party-trick-v0-pj86se4c6otg1.webp marley_coe/mission_dildo.png
+rm my-party-trick-v0-pj86se4c6otg1.webp
+ls
+lazygit 
+z
+clear
+sudo pacman -Syu
+reboot
+zi
+ls
+mkdir lab_wk_12
+cp report.typ lab_wk_12/
+z lab_wk_12/
+ls
+z downloads
+ls
+mv `B vs. nI.png` ~/School/physics_2/lab_wk_12/
+zj
+ls
+sudo pacman -Syu
+reboot
+sudo pacman -Syu
+htop
+btop
+z Downloads/
+ls
+rm Win11_25H2_English_x64_v2.iso
+btop
+htop
+sudo pacman -Syu
+sudo pacman -S baobab
+zi
+z ..
+rm -rf bevy-games/
+sudo paccache -r
+btop
+baobab 
+shutdown now
+sudo pacman -Syu
+reboot
+zi
+ls
+mkdir project_3
+z project_3/
+zi
+git pull
+htop
+btop
+htop
+./Meta/ladybird.py run
+ls
+z Meta
+ls
+./ladybird.py help
+./ladybird.py -h
+hx project_3.typ
+typst watch project_3.typ
+zathura project_3.pdf
+zj
+./ladybird.py run
+sudo pacman -Syu
+reboot
+htop
+pkill steam
+reboot
+zi
+ls
+mkdir amstud2
+z amstud2/
+pkill steam
+steam
+                           sudo pacman -Syu
+zi
+hx op-ed-2.typ
+typst watch op-ed-2.typ
+zathura op-ed-2.pdf
+hx op-ed-2.typ
+typst -h
+typst c op-ed-2.typ
+zathura op-ed-2.pdf &
+nmtui
+zi
+ls
+yazi
+nmtui
+yazi
+vlc
+sudo pacman -Syu
+reboot
+zi
+ls
+icat i-wanna-feel-a-tongue-in-my-asshole-v0-yzmv1q12wjzg1.webp
+yazi
+magick i-wanna-feel-a-tongue-in-my-asshole-v0-yzmv1q12wjzg1.webp misc/backside_0.png
+rm i-wanna-feel-a-tongue-in-my-asshole-v0-yzmv1q12wjzg1.webp
+icat misc/backside_0.png
+ls
+icat insert-cock-here-v0-u9oudbpjgzxg1.webp
+magick insert-cock-here-v0-u9oudbpjgzxg1.webp mia_ipanema/doggy_5.png
+rm insert-cock-here-v0-u9oudbpjgzxg1.webp
+ls
+icat isnt-she-cute-v0-698zsykdc31h1.webp
+ls
+icat it-simply-aches-to-be-stretched-out-v0-1b289jp3pkzg1.webp
+magick it-simply-aches-to-be-stretched-out-v0-1b289jp3pkzg1.webp
+magick it-simply-aches-to-be-stretched-out-v0-1b289jp3pkzg1.webp misc/mission_2.png
+rm it-simply-aches-to-be-stretched-out-v0-1b289jp3pkzg1.webp
+ls
+icat ive-just-seen-r-godpussy-has-been-banned-what-the-heckkkk-v0-zl3kko13ovyg1.webp
+magick ive-just-seen-r-godpussy-has-been-banned-what-the-heckkkk-v0-zl3kko13ovyg1.webp luna_bunny/mission_spread_3.png
+rm ive-just-seen-r-godpussy-has-been-banned-what-the-heckkkk-v0-zl3kko13ovyg1.webp
+ls
+icat my-soles-stroking-you-before-sliding-in-my-peachy-pussy-v0-rf6h9w8b2ozg1.webp
+magick my-soles-stroking-you-before-sliding-in-my-peachy-pussy-v0-rf6h9w8b2ozg1.webp misc/doggy_2.png
+rm my-soles-stroking-you-before-sliding-in-my-peachy-pussy-v0-rf6h9w8b2ozg1.webp
+ls
+icat need-someone-with-enough-stamina-to-treat-us-both-on-our-v0-r9kx9oxxvizg1.webp
+ls misc
+magick need-someone-with-enough-stamina-to-treat-us-both-on-our-v0-r9kx9oxxvizg1.webp misc/double_doggy.png
+rm need-someone-with-enough-stamina-to-treat-us-both-on-our-v0-r9kx9oxxvizg1.webp
+ls
+icat too-pretty-to-touch-almost-v0-rfkff2nq0xyg1.webp
+magick too-pretty-to-touch-almost-v0-rfkff2nq0xyg1.webp marley_coe/doggy_0.png
+rm too-pretty-to-touch-almost-v0-rfkff2nq0xyg1.webp
+ls
+icat we-hope-you-like-our-pose-v0-1ekmmbhnlvzg1.webp
+magick we-hope-you-like-our-pose-v0-1ekmmbhnlvzg1.webp
+magick we-hope-you-like-our-pose-v0-1ekmmbhnlvzg1.webp misc/mission_double.png
+rm we-hope-you-like-our-pose-v0-1ekmmbhnlvzg1.webp
+ls
+icat what-is-your-favourite-thing-about-me-face-pussy-ass-or-v0-ysgkk9brn41h1.webp
+magick what-is-your-favourite-thing-about-me-face-pussy-ass-or-v0-ysgkk9brn41h1.webp misc/mission_3.png
+rm what-is-your-favourite-thing-about-me-face-pussy-ass-or-v0-ysgkk9brn41h1.webp
+ls
+icat isnt-she-cute-v0-698zsykdc31h1.webp
+magick isnt-she-cute-v0-698zsykdc31h1.webp doggy.png
+rm isnt-she-cute-v0-698zsykdc31h1.webp
+lazygit 
+yazi
+nmtui
+sudo pacman -Syu
+reboot
+sudo pacman -S cheese
+nmtui
+reboot
+hx
+sudo pacman -Syu
+z Downloads/
+ls
+zathura Tyler_Varnum_Resume-1.pdf
+reboot
+sudo pacman -Syu
+shutdown
+shutdown now
+nmtui
+zig -v
+zig version
+zi
+rm -rf *
+ls
+zig init
+zig build run
+hx
+\
+hx
+zig build run
+hx src/main.zig
+zig build run
+zi
+zig build run
+zig build run o> image
+icat image
+zig build run o> image
+icat image
+open image
+zig build run o> image
+open image
+zig build run o> image
+icat image
+zig build run o> image
+flatpak install flathub org.vinegarhq.Sober
+ls
+mkdir Things
+ls Things
+z Things/
+ls
+mkdir todo-list
+z todo-list/
+ls
+npm init @open-wc
+ls
+z todo-list/
+ls
+npm run start
+ls
+hx src/todo-list.ts
+npm init @open-wc
+hx src/todo-list.ts
+npm format
+npm run format
+hx src/todo-list.ts
+npm run format
+hx src/todo-list.ts
+npm run prettier
+npm run
+npm run lint
+npm run format
+prettier "**/*.ts" --write --ignore-path .gitignore
+hx src/todo-list.ts
+lazygit 
+z ..
+git init
+lazygit 
+z todo-list/
+ls
+which dotnet
+dotnet help
+dotnet version
+z Things/
+ls
+dotnet new console -n dotnet-app
+ls
+z dotnet-app/
+ls
+hx Program.cs
+dotnet run
+hx Program.cs
+hx --health c#
+hx --health c-sharp
+yay -S omnisharp-roslyn
+hx --health c-sharp
+hx Program.cs
+zed .
+zeditor .
+dotnet run
+dotnet run
+zi
+dotnet new webapi -n storage-api
+z storage-api/
+ls
+zeditor .
+dotnet run
+dotnet help
+dotnet restore
+sudo pacman -S aspnet-targeting-pack-10.0
+dotnet restore
+dotnet build
+dotnet run
+dotnet
+dotnet --info
+sudo pacman -S dotnet-runtime-10.0
+dotnet run
+sudo pacman -S aspnet-runtime-10.0
+hx src/todo-list.ts
+zeditor .
+dotnet run
+dotnet build
+dotnet run
+npm run start
+npm run lint
+npm run starty
+dotnet run
+dotnet build
+dotnet run
+dotnet build
+dotnet run
+dotnet build
+dotnet run
+hx
+dotnet run
+dotnet restore
+prettier "**/*.ts" --write --ignore-path .gitignore
+npm run format
+dotnet run
+sleep
+systemctl suspend
+htop
+btop
+dotnet run
+sudo pacman -Syu
+reboot
+dotnet run
+dotnet build
+dotnet run
+systemctl suspend
+npm run start
+dotnet run
+sudo pacman -Syu
+reboot
+zi
+ls
+npm create vue@latest
+z todo-list-vue/
+ls
+npm install
+npm fund
+npm run format
+npm run dev
+npm fund --json
+zeditor .
+npm run dev
+zi
+ls
+icat can-you-pull-it-out-with-your-teeth-v0-1a0kcnv1zl8h1.webp
+icat flipping-over-to-sun-my-other-side-just-as-youre-walking-by-v0-i154jn8vdn7h1.webp
+ls
+icat hot-or-disgusting-v0-k0mxd9uans6h1.webp
+ls
+icat be-honest-please-am-i-too-kinky-for-you-or-the-dream-friend-v0-wffqqi85qv8h1.webp
+mkdir bea
+magick be-honest-please-am-i-too-kinky-for-you-or-the-dream-friend-v0-wffqqi85qv8h1.webp bea/doggy_thong.png
+icat bea/doggy_thong.png
+rm be-honest-please-am-i-too-kinky-for-you-or-the-dream-friend-v0-wffqqi85qv8h1.webp
+ls
+icat can-you-pull-it-out-with-your-teeth-v0-1a0kcnv1zl8h1.webp
+magick can-you-pull-it-out-with-your-teeth-v0-1a0kcnv1zl8h1.webp luna_bunny/backside_4.png
+rm can-you-pull-it-out-with-your-teeth-v0-1a0kcnv1zl8h1.webp
+ls
+icat doggy.png
+ls
+icat flipping-over-to-sun-my-other-side-just-as-youre-walking-by-v0-i154jn8vdn7h1.webp
+magick flipping-over-to-sun-my-other-side-just-as-youre-walking-by-v0-i154jn8vdn7h1.webp misc/doggy_4.png
+rm flipping-over-to-sun-my-other-side-just-as-youre-walking-by-v0-i154jn8vdn7h1.webp
+ls
+icat hot-or-disgusting-v0-k0mxd9uans6h1.webp
+magick hot-or-disgusting-v0-k0mxd9uans6h1.webp skylar_mae/cumshot_3.png
+rm hot-or-disgusting-v0-k0mxd9uans6h1.webp
+ls
+icat i-always-show-you-my-white-ass-i-thought-you-might-like-my-v0-4v0qssmarsyg1.webp
+icat i-hope-you-never-get-tired-of-me-in-this-position-v0-3uza3a7rtnrg1.webp
+ls
+icat this-little-anal-princess-has-been-busy-lately-v0-kqevgjntadtg1.webp
+mkdir milkshake
+ls
+icat i-always-show-you-my-white-ass-i-thought-you-might-like-my-v0-4v0qssmarsyg1.webp
+magick i-always-show-you-my-white-ass-i-thought-you-might-like-my-v0-4v0qssmarsyg1.webp milkshake/legsup_wet.png
+rm i-always-show-you-my-white-ass-i-thought-you-might-like-my-v0-4v0qssmarsyg1.webp
+icat i-hope-you-never-get-tired-of-me-in-this-position-v0-3uza3a7rtnrg1.webp
+magick i-hope-you-never-get-tired-of-me-in-this-position-v0-3uza3a7rtnrg1.webp milkshake/doggy_0.png
+rm i-hope-you-never-get-tired-of-me-in-this-position-v0-3uza3a7rtnrg1.webp
+ls
+icat this-little-anal-princess-has-been-busy-lately-v0-kqevgjntadtg1.webp
+magick this-little-anal-princess-has-been-busy-lately-v0-kqevgjntadtg1.webp milkshake/upskirt.png
+rm this-little-anal-princess-has-been-busy-lately-v0-kqevgjntadtg1.webp
+icat doggy.png
+mv doggy.png milkshake/doggy_1.png
+ls
+"*.mp4" | save .gitignore
+open .gitignore
+lazygit 
+ls
+z marley_coe/
+ls
+icat swipe-to-see-my-pussy-dimples-v0-rk74hzkjnu8h1.webp
+magick swipe-to-see-my-pussy-dimples-v0-rk74hzkjnu8h1.webp closeup.png
+rm swipe-to-see-my-pussy-dimples-v0-rk74hzkjnu8h1.webp
+z -
+lazygit 
+ls
+npm run dev
+npm install vue-router
+npm run dev
+icat be-honest-if-i-texted-u-to-come-over-and-eat-my-pussy-would-v0-8060d4wisw7h1.webp
+magick be-honest-if-i-texted-u-to-come-over-and-eat-my-pussy-would-v0-8060d4wisw7h1.webp bea/pearls_0.png
+rm be-honest-if-i-texted-u-to-come-over-and-eat-my-pussy-would-v0-8060d4wisw7h1.webp
+icat be-honest-if-i-texted-u-to-come-over-and-eat-my-pussy-would-v0-q09ie2wisw7h1.webp
+magick be-honest-if-i-texted-u-to-come-over-and-eat-my-pussy-would-v0-q09ie2wisw7h1.webp bea/panties_0.png
+rm be-honest-if-i-texted-u-to-come-over-and-eat-my-pussy-would-v0-q09ie2wisw7h1.webp
+icat be-honest-if-i-texted-u-to-come-over-and-eat-my-pussy-would-v0-xvqbk4wisw7h1.webp
+yazi
+magick be-honest-if-i-texted-u-to-come-over-and-eat-my-pussy-would-v0-xvqbk4wisw7h1.webp bea/bare_0.png
+rm be-honest-if-i-texted-u-to-come-over-and-eat-my-pussy-would-v0-xvqbk4wisw7h1.webp
+icat be-honest-please-am-i-too-kinky-for-you-or-the-dream-friend-v0-fmdufj85qv8h1.webp
+magick be-honest-please-am-i-too-kinky-for-you-or-the-dream-friend-v0-fmdufj85qv8h1.webp bea/hand.png
+ls
+rm be-honest-please-am-i-too-kinky-for-you-or-the-dream-friend-v0-fmdufj85qv8h1.webp
+icat i-want-to-make-ur-monday-better-here-are-my-favourite-pics-v0-89f2bjnjck0h1.webp
+magick i-want-to-make-ur-monday-better-here-are-my-favourite-pics-v0-89f2bjnjck0h1.webp bea/anal_dildo_0.png
+rm i-want-to-make-ur-monday-better-here-are-my-favourite-pics-v0-89f2bjnjck0h1.webp
+icat i-want-to-make-ur-monday-better-here-are-my-favourite-pics-v0-hlt590njck0h1.webp
+magick i-want-to-make-ur-monday-better-here-are-my-favourite-pics-v0-hlt590njck0h1.webp bea/bare_1.png
+rm i-want-to-make-ur-monday-better-here-are-my-favourite-pics-v0-hlt590njck0h1.webp
+icat i-want-to-make-ur-monday-better-here-are-my-favourite-pics-v0-mh6w9umjck0h1.webp
+magick i-want-to-make-ur-monday-better-here-are-my-favourite-pics-v0-mh6w9umjck0h1.webp bea/bare_2.png
+rm i-want-to-make-ur-monday-better-here-are-my-favourite-pics-v0-mh6w9umjck0h1.webp
+ls
+icat i-want-to-make-ur-monday-better-here-are-my-favourite-pics-v0-why3fumjck0h1.webp
+magick i-want-to-make-ur-monday-better-here-are-my-favourite-pics-v0-why3fumjck0h1.webp bea/anal_dildo_1.png
+rm i-want-to-make-ur-monday-better-here-are-my-favourite-pics-v0-why3fumjck0h1.webp
+ls
+icat reddit-do-you-think-that-i-look-innocent-swipe-and-see-tell-v0-110wpx12wa1h1.webp
+magick reddit-do-you-think-that-i-look-innocent-swipe-and-see-tell-v0-110wpx12wa1h1.webp bea/anal_dildo_2.png
+rm reddit-do-you-think-that-i-look-innocent-swipe-and-see-tell-v0-110wpx12wa1h1.webp
+icat reddit-do-you-think-that-i-look-innocent-swipe-and-see-tell-v0-1qb6yu12wa1h1.webp
+yazi
+magick reddit-do-you-think-that-i-look-innocent-swipe-and-see-tell-v0-1qb6yu12wa1h1.webp bea/zipped_in_0.png
+rm reddit-do-you-think-that-i-look-innocent-swipe-and-see-tell-v0-1qb6yu12wa1h1.webp
+icat reddit-do-you-think-that-i-look-innocent-swipe-and-see-tell-v0-2e75lu12wa1h1.webp
+magick reddit-do-you-think-that-i-look-innocent-swipe-and-see-tell-v0-2e75lu12wa1h1.webp bea/zipped_in_2.png
+rm reddit-do-you-think-that-i-look-innocent-swipe-and-see-tell-v0-2e75lu12wa1h1.webp
+icat reddit-do-you-think-that-i-look-innocent-swipe-and-see-tell-v0-mdh16322wa1h1.webp
+magick reddit-do-you-think-that-i-look-innocent-swipe-and-see-tell-v0-mdh16322wa1h1.webp bea/pussy_dildo_0.png
+rm reddit-do-you-think-that-i-look-innocent-swipe-and-see-tell-v0-mdh16322wa1h1.webp
+icat reddit-do-you-think-that-i-look-innocent-swipe-and-see-tell-v0-pii86w12wa1h1.webp
+magick reddit-do-you-think-that-i-look-innocent-swipe-and-see-tell-v0-pii86w12wa1h1.webp bea/zipped_in_1.png
+rm reddit-do-you-think-that-i-look-innocent-swipe-and-see-tell-v0-pii86w12wa1h1.webp
+icat reddit-i-am-so-curious-be-honest-please-which-version-of-me-v0-gw8eu2xwsx2h1.webp
+magick reddit-i-am-so-curious-be-honest-please-which-version-of-me-v0-gw8eu2xwsx2h1.webp bea/butt_plug_0.png
+rm reddit-i-am-so-curious-be-honest-please-which-version-of-me-v0-gw8eu2xwsx2h1.webp
+icat reddit-i-am-so-curious-be-honest-please-which-version-of-me-v0-u20mp2xwsx2h1.webp
+magick reddit-i-am-so-curious-be-honest-please-which-version-of-me-v0-u20mp2xwsx2h1.webp bea/pearls_1.png
+rm reddit-i-am-so-curious-be-honest-please-which-version-of-me-v0-u20mp2xwsx2h1.webp
+icat reddit-i-am-so-curious-be-honest-please-which-version-of-me-v0-whjgv3xwsx2h1.webp
+magick reddit-i-am-so-curious-be-honest-please-which-version-of-me-v0-whjgv3xwsx2h1.webp bea/pussy_dildo_1.png
+rm reddit-i-am-so-curious-be-honest-please-which-version-of-me-v0-whjgv3xwsx2h1.webp
+icat reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-5me3o8qha32g1.webp
+magick reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-5me3o8qha32g1.webp bea/butt_plug_1.png
+rm reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-5me3o8qha32g1.webp
+icat reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-av07c5qha32g1.webp
+magick reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-av07c5qha32g1.webp bea/butt_plug_2.png
+rm reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-av07c5qha32g1.webp
+icat reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-e7o839qha32g1.webp
+magick reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-e7o839qha32g1.webp bea/pearls_2.png
+rm reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-e7o839qha32g1.webp
+icat reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-hmgcz6rha32g1.webp
+magick reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-hmgcz6rha32g1.webp bea/bare_3.png
+rm reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-hmgcz6rha32g1.webp
+icat reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-ifib89qha32g1.webp
+magick reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-ifib89qha32g1.webp bea/butt_plug_3.png
+rm reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-ifib89qha32g1.webp
+icat reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-kdumd5qha32g1.webp
+magick reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-kdumd5qha32g1.webp bea/panties_1.png
+rm reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-kdumd5qha32g1.webp
+icat reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-yrrb86qha32g1.webp
+magick reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-yrrb86qha32g1.webp bea/butt_plug_4.png
+rm reddit-my-favourite-20-pics-of-me-are-here-help-me-pick-the-v0-yrrb86qha32g1.webp
+ls
+yazi
+ls misc
+z misc
+file ee_snow_doggy.jpeg
+magick ee_snow_doggy.jpeg -strip -quality 75 ee_snow_doggy.jpeg
+ls
+icat ee_snow_doggy.jpeg
+npm install
+icat ee_snow_doggy.jpeg
+icat src/assets/logo.svg
+z ..
+ls
+z todo-list/
+ls
+ls src
+zi
+hx src/todo-list.ts
+ls
+hx
+z scr
+z src
+zi
+z src/
+ls
+open todo_item.ts
+dotnet run
+sudo pacman -Syu
+reboot
+zi
+zeditor .
+npm run start
+npm run
+z ..
+z storage-api/
+ls
+dotnet help
+dotnet restore
+npm run dev
+zi
+zeditor .
+dotnet run
+zeditor .
+dotnet run
+dotnet restore
+dotnet run
+curl -fsSL https://claude.ai/install.sh | bash
+claude --help
+ls -a
+z .claude/
+ls
+hx CLAUDE.md
+claude
+npm run dev
+zi
+mkdir tagger
+z tagger/
+claude
+zig build run -- ../image_carousel/
+claude
+zig build run -- ../image_carousel/
+rm ../image_carousel/.tagger/tags.zon
+zig build run -- ../image_carousel/
+yazi
+zig build run -- ../image_carousel/
+zig build run -Doptimize=releaseFast -- ../image_carousel/
+zig build run -Doptimize=ReleaseFast -- ../image_carousel/
+clear
+./zig-out/bin/tagger ../image_carousel/
+clear
+claude
+zig build run -Doptimize=ReleaseFast -- ../image_carousel/
+./zig-out/bin/tagger ../image_carousel/
+zig build run -- ../image_carousel/
+exit
+sudo pacman -Syu
+reboot
+z Projects/
+ls
+mkdir cord
+z cord/
+zeditor
+zeditor .
+zig init
+zig build run
+netstat -an | grep LISTEN
+zig build run
+nc 127.0.0.1 3000
+zig build run
+zig-out/bin/server
+zig build run
+curl http://127.0.0.1:3000/channels/general/messages
+zig build run
+curl http://127.0.0.1:3000/channels/general/messages
+zig build run
+curl http://127.0.0.1:3000/channels/general/messages
+zig build run
+curl -X POST http://127.0.0.1:3000/register \<\n>  -H "Content-Type: application/json" \<\n>  -d '{"username":"alice","password":"hunter2"}'
+curl -X POST http://127.0.0.1:3000/register -H "Content-Type: application/json" -d '{"username":"alice","password":"hunter2"}'
+sudo pacman -Syu
+ssh eipi.boo
+ssh-keygen -t ed25519 -C "tylervarnum9@gmail.com"
+ssh eipi.boo
+reboot
+zig build run
+sudo lsof -i :3000
+zig build run
+sudo lsof -i :3000
+zig build run
+ssh late.sh
+nmtui
+zig build run
+curl -fsSL https://cli.late.sh/install.sh | bash
+late
+ssh late.sh
+zig build run
+sudo ss -tulpn | grep :3000
+ps -e | grep 79025
+ps | grep 79025
+kill 79025
+ps | grep 79025
+zig build run
+history
+sudo ss -tulpn | grep :3000
+zig build run
+sudo ss -tulpn | grep :3000
+zig build run
+sudo ss -tulpn | grep :3000
+zig build run
+sudo ss -tulpn | grep :3000
+zig build run
+sudo ss -tulpn | grep :3000
+sudo ss -tulpn
+zig build run
+zi
+zig build run -- ../image_carousel/
+zig build run-gui
+zig build run-gui -- ../image_carousel/
+rm zig-out/bin/tagger-gui
+zig build run-gui -- ../image_carousel/
+with-env {LIBGL_ALWAYS_SOFTWARE: 1} {zig build run-gui -- ../image_carousel/}
+zig build run-gui -- ../image_carousel/
+with-env {LIBGL_ALWAYS_SOFTWARE: 1} {zig build run-gui -- ../image_carousel/}
+zig build run-gui -- ../image_carousel/
+print $WAYLAND_DISPLAY
+print $env.WAYLAND_DISPLAY
+print $env.XDG_RUNTIME_DIR
+rm -rf .zig-cache/ zig-out/
+zig build run-gui -- ../image_carousel/
+niri msg windows | grep -B2 -A3 -i tagger
+ps aux | grep tagger-gui
+ps | grep tagger-gui
+./zig-out/bin/tagger-gui ../image_carousel/
+pkill -9 -f tagger-gui
+rm -rf .zig-cache/ zig-out/
+zig build run-gui -- ../image_carousel/
+zig build run -- ../image_carousel/
+zig build run-gui -- ../image_carousel/
+claude
+sudo pacman -Syu
+reboot
+nmtui
+sudo pacman -Syu
+yay -Sua
+sudo pacman -S labwc
+fastfetch
+labwc
+zi
+z config
+ls
+ls | search labwc
+ls | find labwc
+ls | find zed
+mkdir labwc
+z labwc/
+hx environment
+which swaybg 
+swaybg -c '#0033CC' &
+swaybg -c 0033CC &
+swaybg -c 0033CC 
+firefox
+job spawn {swaybg -c 0099CC}
+zi
+ls
+vicinae toggle
+vicinae help
+vicinae --help
+hx rc.xml
+vicinae server
+job spawn {vicinae server}
+labwc --reconfigure
+ls
+qs -p ~/Projects/qs-shell/
+firefox
+qs -p ~/Projects/qs-shell/
+qs -p ~/Projects/qs-shell/
+labwc --reconfigure
+qs -p ~/Projects/qs-shell/
+labwc --reconfigure
+qs -p ~/Projects/qs-shell/
+swaybg -c 0a0a0a
+qs -p ~/Projects/qs-shell/
+job spawn { swaybg -c 0a0a0a }
+qs -p ~/Projects/qs-shell/
+labwc --reconfigure
+kitten themes
+hx
+hx .config/starship.toml
+zi
+hx src/main.zig
+kitten themes
+notify-send "hello"
+hx ~/.config/labwc/autostart
+notify-send "hello"
+claude
+zi
+qs -p ~/Projects/qs-shell/
+zi
+ls
+icat `Screenshot from 2026-08-05 12-55-04.png`
+icat `Screenshot from 2026-08-05 12-55-28.png`
+sudo pacman -S cliphist
+hx ~/.claude/settings.json
+sudo pacman -Syu
+firefox -P default --no-remote
+niri-session 
+claude
+sudo pacman -S ghostty
+ps
+hx .config/starship.toml
+xi
+zi
+z Projects/
+ls
+z qs-shell/
+ls
+labwc
+claude
+kitten themes
+fastfetch
+kitten themes
+labwc -r
+hx Projects/qs-shell/scripts/sync-labwc-theme.sh
+bash Projects/qs-shell/scripts/sync-labwc-theme.sh
+hx
+labwc -r
+fastfetch
+labwc -r
+zi
+ls
+z themes/
+ls
+mv fence.json .fence.json
+ls
+ls -a
+mv .fence.json fence.json
+ls
+sudo tee /etc/udev/rules.d/90-platform-profile.rules > /dev/null <<'RULE'<\n># Allow the wheel group to switch ACPI platform profile without root<\n># (used by ~/Projects/qs-shell's power profile widget)<\n>SUBSYSTEM=="platform-profile", RUN+="/usr/bin/chgrp wheel /sys%p/profile", RUN+="/usr/bin/chmod g+w /sys%p/profile"<\n>RULE
+sudo hx /etc/udev/rules.d/90-platform-profile.rules
+sudo helix /etc/udev/rules.d/90-platform-profile.rules
+sudo udevadm control --reload-rules
+sudo udevadm trigger --subsystem-match=platform-profile
+ls -la /sys/class/platform-profile/platform-profile-0/profile
+notify-send "hello"
+clear
+fastfetch
+ps
+ps | search qs
+ps | find qs
+pkill 389269
+pkill qs
+zi
+ls
+zi
+ls
+mv boxer.json .boxer.json
+mv fence.json .fence.json
+mv green.json .green.json
+mv plants.json .plants.json
+mv pool.json .pool.json
+ls
+ls -a
+rm .*
+ls -a
+cat <<RULE
+rm <<RULE
+rm >
+ls
+zellij
+zi
+lazygit 
+ls
+rm -rf fish
+rm -rf niri
+rm -rf mako
+ls
+rm -rf eww
+ls
